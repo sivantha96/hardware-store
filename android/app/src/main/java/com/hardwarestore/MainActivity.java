@@ -1,6 +1,9 @@
 package com.hardwarestore;
+import expo.modules.ReactActivityDelegateWrapper;
+import com.facebook.react.ReactActivityDelegate;
 
 import com.facebook.react.ReactActivity;
+import android.os.Bundle;
 
 public class MainActivity extends ReactActivity {
 
@@ -11,5 +14,21 @@ public class MainActivity extends ReactActivity {
   @Override
   protected String getMainComponentName() {
     return "hardwareStore";
+  }
+
+  /**
+   * React Navigation dependency
+   * to avoid crashes related to View state being not persisted consistently across Activity restarts
+   */
+  @Override
+  protected void onCreate(Bundle savedInstanceState) {
+    super.onCreate(null);
+  }
+
+  @Override
+  protected ReactActivityDelegate createReactActivityDelegate() {
+    return new ReactActivityDelegateWrapper(this,
+      new ReactActivityDelegate(this, getMainComponentName())
+    );
   }
 }

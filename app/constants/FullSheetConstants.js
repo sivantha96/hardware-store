@@ -1,0 +1,4 @@
+export const FULLSHEET = {
+    GENERAL: 'GENERAL',
+    GENERAL_DRAGGABLE: 'GENERAL_DRAGGABLE',
+};
