@@ -9,6 +9,7 @@ import NavigationServices from './navigation/NavigationServices';
 import { MAIN_STACK_SCREENS } from './navigation/constants';
 import { BOTTOMSHEET } from './constants/BottomSheetContants';
 import { FULLSHEET } from './constants/FullSheetConstants';
+import RNBootSplash from 'react-native-bootsplash';
 
 export class Router extends Component {
     componentDidMount() {
@@ -21,6 +22,7 @@ export class Router extends Component {
     // initial setup
     initialize = () => {
         handleAndroidBackButton(this.onPressBackHandler);
+        RNBootSplash.hide({ fade: true }); // hide splash at the end
     };
 
     // initial navigation logic
