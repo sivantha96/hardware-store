@@ -2,6 +2,7 @@
  * actions related with navigation
  * every navigation action should be defined here
  * avoid using this.props.navigation inside the code
+ * avoid navigating between sub-stacks
  */
 import { HOME_STACK_SCREENS, MAIN_STACK_SCREENS, MENU_STACK_SCREENS } from './constants';
 import NavigationServices from './NavigationServices';
@@ -23,5 +24,5 @@ export function navigateToHome(params) {
 }
 
 export function navigateToProfile(params) {
-    NavigationServices.navigate(MENU_STACK_SCREENS.PROFILE, params);
+    NavigationServices.navigate(MENU_STACK_SCREENS.PROFILE);
 }

@@ -9,9 +9,9 @@ const Stack = createStackNavigator();
 const MenuScreenStack = () => {
     return (
         <Stack.Navigator
-            initialRouteName={MENU_STACK_SCREENS.MAIN}
+            initialRouteName={MENU_STACK_SCREENS.MENU}
             screenOptions={{ headerShown: false }}>
-            <Stack.Screen name={MENU_STACK_SCREENS.MAIN} component={MenuContainer} />
+            <Stack.Screen name={MENU_STACK_SCREENS.MENU} component={MenuContainer} />
             <Stack.Screen
                 name={MENU_STACK_SCREENS.PROFILE}
                 component={ProfileContainer}

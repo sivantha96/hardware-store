@@ -5,24 +5,24 @@ import {
 } from '@react-navigation/stack';
 
 export const MAIN_STACK_SCREENS = {
-    ROUTER: 'Main_Router',
-    FULLSHEET: 'Main_FullSheet',
-    BOTTOMSHEET: 'Main_BottomSheet',
-    TABS: 'Main_Tabs',
+    ROUTER: 'Router',
+    FULLSHEET: 'FullSheet',
+    BOTTOMSHEET: 'BottomSheet',
+    TABS: 'Tabs',
 };
 
 export const TAB_SCREENS = {
-    HOME: 'Tab_Home',
-    MENU: 'Tab_Menu',
+    HOME: 'HomeTab',
+    MENU: 'MenuTab',
 };
 
 export const HOME_STACK_SCREENS = {
-    MAIN: 'Home_Main',
+    HOME: 'Home',
 };
 
 export const MENU_STACK_SCREENS = {
-    MAIN: 'Menu_Main',
-    PROFILE: 'Menu_Profile',
+    MENU: 'Menu',
+    PROFILE: 'Profile',
 };
 
 export const STACK_OPTIONS = {

@@ -16,7 +16,7 @@ const NavigationHeader = ({ title, onPressBack }) => {
 
     return (
         <View style={styles.container}>
-            <StatusBar translucent barStyle="dark-content" />
+            <StatusBar translucent />
             <View style={styles.row}>
                 <View style={styles.wrapperLeft}>
                     <Icon

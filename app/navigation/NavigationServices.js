@@ -1,10 +1,16 @@
 import React from 'react';
 import { CommonActions, StackActions } from '@react-navigation/native';
+import { NavigationActions } from 'react-navigation';
 
 const navigationRef = React.createRef();
 
 function navigate(routeName, params) {
     navigationRef.current?.navigate(routeName, params);
+}
+
+function navigateToSubStack(parentRoute, subRoute, params) {
+    const navigateAction = CommonActions.navigate({ routeName: subRoute });
+    navigationRef.current?.navigate(parentRoute, params, navigateAction);
 }
 
 function getCurrentRoute() {
@@ -32,6 +38,7 @@ function fullReset(routeName) {
 
 export default {
     navigationRef,
+    navigateToSubStack,
     push,
     navigate,
     goBack,

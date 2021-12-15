@@ -1,13 +1,16 @@
 import React, { Component } from 'react';
-import { StyleSheet, View } from 'react-native';
+import { Button, StyleSheet, View } from 'react-native';
 import { connect } from 'react-redux';
-import { Text } from '../../../components/Typography';
+import * as NavigationHelpers from '../../../navigation/NavigationHelpers';
 
 export class MenuContainer extends Component {
     render() {
         return (
             <View style={styles.container}>
-                <Text>Menu</Text>
+                <Button
+                    title="Go to profile"
+                    onPress={() => NavigationHelpers.navigateToProfile()}
+                />
             </View>
         );
     }

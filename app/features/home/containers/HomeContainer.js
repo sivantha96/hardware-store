@@ -9,10 +9,6 @@ export class HomeContainer extends Component {
         return (
             <View style={styles.container}>
                 <Button
-                    title="Go to profile"
-                    onPress={() => NavigationHelpers.navigateToProfile()}
-                />
-                <Button
                     title="Open a bottomsheet"
                     onPress={() => NavigationHelpers.pushBottomSheet()}
                 />
