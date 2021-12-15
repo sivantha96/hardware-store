@@ -9,11 +9,22 @@
 /* Begin PBXBuildFile section */
 		00E356F31AD99517003FC87E /* hardwareStoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* hardwareStoreTests.m */; };
 		0470FB060053CCB0BFAEB623 /* libPods-hardwareStore-hardwareStoreTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C60052E821884C0995D95944 /* libPods-hardwareStore-hardwareStoreTests.a */; };
+		057B4F5F5E3B44F9A1AD7C18 /* SF-Pro-Rounded-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = F99B1F321E7C415480E6E432 /* SF-Pro-Rounded-Bold.otf */; };
+		0CBAE1057371412792F00A6E /* SF-Pro-Rounded-Black.otf in Resources */ = {isa = PBXBuildFile; fileRef = 82AC7AEDD14442E5B7E0C23A /* SF-Pro-Rounded-Black.otf */; };
 		13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.m */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		3B6FCFD682966E7AC01F03E1 /* libPods-hardwareStore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 710AD81B14BE7F6961DA94F5 /* libPods-hardwareStore.a */; };
+		4B86D8103B2543A6954BA71E /* SF-Pro-Rounded-Thin.otf in Resources */ = {isa = PBXBuildFile; fileRef = 97690F3C81FB4F0FA0623CE3 /* SF-Pro-Rounded-Thin.otf */; };
+		7A88EB234DAA7F49A5178B1E /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D24EF84E5686F60AD7570DF /* ExpoModulesProvider.swift */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		C3D7FC9C03F749F597C2A56C /* SF-Pro-Rounded-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = D19982FEA3264BF7984EFF89 /* SF-Pro-Rounded-Medium.otf */; };
+		C713BCF831874339BE56471E /* SF-Pro-Rounded-Ultralight.otf in Resources */ = {isa = PBXBuildFile; fileRef = 68745943EA504E5985E0B6D7 /* SF-Pro-Rounded-Ultralight.otf */; };
+		CCB2D73C28284DC0AC293FFE /* SF-Pro-Rounded-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = 9FD1936FDC0A4DAE8118B967 /* SF-Pro-Rounded-Heavy.otf */; };
+		E3B783C026954822A992834B /* SF-Pro-Rounded-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 1202B8F44EC04710BB785A99 /* SF-Pro-Rounded-Regular.otf */; };
+		E8EAEC771776411C9A22E7F1 /* SF-Pro-Rounded-Semibold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 56B2D60B51064C8986191125 /* SF-Pro-Rounded-Semibold.otf */; };
+		EEAA982621CB4CD091DF520F /* SF-Pro-Rounded-Light.otf in Resources */ = {isa = PBXBuildFile; fileRef = 029A57D378494F1BBFECE5A1 /* SF-Pro-Rounded-Light.otf */; };
+		FB4BC774C6CDA0A6EE9C9CD8 /* ExpoModulesProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33E3E4ED9CD8B34A5211D33 /* ExpoModulesProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +41,8 @@
 		00E356EE1AD99517003FC87E /* hardwareStoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hardwareStoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		00E356F21AD99517003FC87E /* hardwareStoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hardwareStoreTests.m; sourceTree = "<group>"; };
+		029A57D378494F1BBFECE5A1 /* SF-Pro-Rounded-Light.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Light.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Light.otf"; sourceTree = "<group>"; };
+		1202B8F44EC04710BB785A99 /* SF-Pro-Rounded-Regular.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Regular.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Regular.otf"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* hardwareStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hardwareStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = hardwareStore/AppDelegate.h; sourceTree = "<group>"; };
 		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = hardwareStore/AppDelegate.m; sourceTree = "<group>"; };
@@ -37,13 +50,22 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = hardwareStore/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = hardwareStore/main.m; sourceTree = "<group>"; };
 		15C4F2F4346083EECFFA7676 /* Pods-hardwareStore-hardwareStoreTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardwareStore-hardwareStoreTests.debug.xcconfig"; path = "Target Support Files/Pods-hardwareStore-hardwareStoreTests/Pods-hardwareStore-hardwareStoreTests.debug.xcconfig"; sourceTree = "<group>"; };
+		56B2D60B51064C8986191125 /* SF-Pro-Rounded-Semibold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Semibold.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Semibold.otf"; sourceTree = "<group>"; };
+		5D24EF84E5686F60AD7570DF /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-hardwareStore/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
+		68745943EA504E5985E0B6D7 /* SF-Pro-Rounded-Ultralight.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Ultralight.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Ultralight.otf"; sourceTree = "<group>"; };
 		710AD81B14BE7F6961DA94F5 /* libPods-hardwareStore.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hardwareStore.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = hardwareStore/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82AC7AEDD14442E5B7E0C23A /* SF-Pro-Rounded-Black.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Black.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Black.otf"; sourceTree = "<group>"; };
 		88803E7BE58ED691ABC95FF0 /* Pods-hardwareStore-hardwareStoreTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardwareStore-hardwareStoreTests.release.xcconfig"; path = "Target Support Files/Pods-hardwareStore-hardwareStoreTests/Pods-hardwareStore-hardwareStoreTests.release.xcconfig"; sourceTree = "<group>"; };
+		97690F3C81FB4F0FA0623CE3 /* SF-Pro-Rounded-Thin.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Thin.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Thin.otf"; sourceTree = "<group>"; };
+		9FD1936FDC0A4DAE8118B967 /* SF-Pro-Rounded-Heavy.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Heavy.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Heavy.otf"; sourceTree = "<group>"; };
 		AD801AE7F4709720F86F2199 /* Pods-hardwareStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardwareStore.debug.xcconfig"; path = "Target Support Files/Pods-hardwareStore/Pods-hardwareStore.debug.xcconfig"; sourceTree = "<group>"; };
 		C60052E821884C0995D95944 /* libPods-hardwareStore-hardwareStoreTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-hardwareStore-hardwareStoreTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D19982FEA3264BF7984EFF89 /* SF-Pro-Rounded-Medium.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Medium.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Medium.otf"; sourceTree = "<group>"; };
+		D33E3E4ED9CD8B34A5211D33 /* ExpoModulesProvider.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExpoModulesProvider.swift; path = "Pods/Target Support Files/Pods-hardwareStore-hardwareStoreTests/ExpoModulesProvider.swift"; sourceTree = "<group>"; };
 		DE6170F09629D960FFD5044B /* Pods-hardwareStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hardwareStore.release.xcconfig"; path = "Target Support Files/Pods-hardwareStore/Pods-hardwareStore.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		F99B1F321E7C415480E6E432 /* SF-Pro-Rounded-Bold.otf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = "SF-Pro-Rounded-Bold.otf"; path = "../app/assets/fonts/SF-Pro-Rounded-Bold.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +118,22 @@
 			name = hardwareStore;
 			sourceTree = "<group>";
 		};
+		25B063391797449688A4CF56 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				82AC7AEDD14442E5B7E0C23A /* SF-Pro-Rounded-Black.otf */,
+				F99B1F321E7C415480E6E432 /* SF-Pro-Rounded-Bold.otf */,
+				9FD1936FDC0A4DAE8118B967 /* SF-Pro-Rounded-Heavy.otf */,
+				029A57D378494F1BBFECE5A1 /* SF-Pro-Rounded-Light.otf */,
+				D19982FEA3264BF7984EFF89 /* SF-Pro-Rounded-Medium.otf */,
+				1202B8F44EC04710BB785A99 /* SF-Pro-Rounded-Regular.otf */,
+				56B2D60B51064C8986191125 /* SF-Pro-Rounded-Semibold.otf */,
+				97690F3C81FB4F0FA0623CE3 /* SF-Pro-Rounded-Thin.otf */,
+				68745943EA504E5985E0B6D7 /* SF-Pro-Rounded-Ultralight.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -114,7 +152,6 @@
 				15C4F2F4346083EECFFA7676 /* Pods-hardwareStore-hardwareStoreTests.debug.xcconfig */,
 				88803E7BE58ED691ABC95FF0 /* Pods-hardwareStore-hardwareStoreTests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -134,6 +171,8 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				314D13D4326933CEA708913D /* Pods */,
+				FDD34AD01E74BEB47415F2C5 /* ExpoModulesProviders */,
+				25B063391797449688A4CF56 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -147,6 +186,31 @@
 				00E356EE1AD99517003FC87E /* hardwareStoreTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		8EF32BADEEE37BFA98F7994D /* hardwareStoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				D33E3E4ED9CD8B34A5211D33 /* ExpoModulesProvider.swift */,
+			);
+			name = hardwareStoreTests;
+			sourceTree = "<group>";
+		};
+		EFAB6D9C66937DC03BB7BEB0 /* hardwareStore */ = {
+			isa = PBXGroup;
+			children = (
+				5D24EF84E5686F60AD7570DF /* ExpoModulesProvider.swift */,
+			);
+			name = hardwareStore;
+			sourceTree = "<group>";
+		};
+		FDD34AD01E74BEB47415F2C5 /* ExpoModulesProviders */ = {
+			isa = PBXGroup;
+			children = (
+				EFAB6D9C66937DC03BB7BEB0 /* hardwareStore */,
+				8EF32BADEEE37BFA98F7994D /* hardwareStoreTests */,
+			);
+			name = ExpoModulesProviders;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -245,6 +309,15 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				0CBAE1057371412792F00A6E /* SF-Pro-Rounded-Black.otf in Resources */,
+				057B4F5F5E3B44F9A1AD7C18 /* SF-Pro-Rounded-Bold.otf in Resources */,
+				CCB2D73C28284DC0AC293FFE /* SF-Pro-Rounded-Heavy.otf in Resources */,
+				EEAA982621CB4CD091DF520F /* SF-Pro-Rounded-Light.otf in Resources */,
+				C3D7FC9C03F749F597C2A56C /* SF-Pro-Rounded-Medium.otf in Resources */,
+				E3B783C026954822A992834B /* SF-Pro-Rounded-Regular.otf in Resources */,
+				E8EAEC771776411C9A22E7F1 /* SF-Pro-Rounded-Semibold.otf in Resources */,
+				4B86D8103B2543A6954BA71E /* SF-Pro-Rounded-Thin.otf in Resources */,
+				C713BCF831874339BE56471E /* SF-Pro-Rounded-Ultralight.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -404,6 +477,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				00E356F31AD99517003FC87E /* hardwareStoreTests.m in Sources */,
+				FB4BC774C6CDA0A6EE9C9CD8 /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,6 +487,7 @@
 			files = (
 				13B07FBC1A68108700A75B9A /* AppDelegate.m in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
+				7A88EB234DAA7F49A5178B1E /* ExpoModulesProvider.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,7 +512,7 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = hardwareStoreTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -461,7 +536,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				COPY_PHASE_STRIP = NO;
 				INFOPLIST_FILE = hardwareStoreTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,6 +558,7 @@
 			baseConfigurationReference = AD801AE7F4709720F86F2199 /* Pods-hardwareStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -496,7 +572,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.sivantha.hardwareStore;
 				PRODUCT_NAME = hardwareStore;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -509,6 +585,7 @@
 			baseConfigurationReference = DE6170F09629D960FFD5044B /* Pods-hardwareStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = hardwareStore/Info.plist;
@@ -521,7 +598,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "org.reactjs.native.example.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = tech.sivantha.hardwareStore;
 				PRODUCT_NAME = hardwareStore;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -577,7 +654,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
@@ -636,7 +713,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					/usr/lib/swift,
 					"$(inherited)",
